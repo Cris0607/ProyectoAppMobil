@@ -1,10 +1,13 @@
 <resources>
-    <string name="login_title">Iniciar sesión</string>
-    <string name="label_email">Correo</string>
-    <string name="label_password">Contraseña</string>
-    <string name="btn_entrar">Entrar</string>
+    <string name="registro_title">Registro de personas</string>
+    <string name="label_id">ID</string>
+    <string name="label_nombre">Nombre</string>
+    <string name="label_apellido">Apellido</string>
     <string name="btn_guardar">Guardar</string>
-    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_actualizar">Actualizar</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="btn_listar">Listar</string>
 
     <string name="app_name">My Application</string>
     <string name="action_settings">Settings</string>
