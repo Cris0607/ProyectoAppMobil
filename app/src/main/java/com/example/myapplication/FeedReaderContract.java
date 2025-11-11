@@ -14,7 +14,7 @@ public class FeedReaderContract {
 
     public static final String SQL_CREATE_ENTRIES =
             "CREATE TABLE " + FeedEntry.nameTable + " (" +
-                    FeedEntry._ID + "INTEGER PRIMARY KEY," +
+                    FeedEntry._ID + " INTEGER PRIMARY KEY, " +
                     FeedEntry.column1 +" TEXT, " +
                     FeedEntry.column2 + " TEXT)";
 

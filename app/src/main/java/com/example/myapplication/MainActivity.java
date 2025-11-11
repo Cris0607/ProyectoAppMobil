@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText txtnombre;
     private EditText txtapellido;
 
-    FeedReaderDBHelper dbHelper = new FeedReaderDBHelper(this);
+    private FeedReaderDBHelper dbHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         txtid=findViewById(R.id.txtid);
         txtnombre=findViewById(R.id.txtnombre);
         txtapellido=findViewById(R.id.txtapellido);
+        dbHelper = new FeedReaderDBHelper(this);
     }
 
     public void Listar(View vista){
